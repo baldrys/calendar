@@ -21,4 +21,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('companies', 'CompanyController');
+Route::group(['middleware' => 'auth'], function () {
+    Route::resource('companies', 'CompanyController');
+    Route::resource('shifts', 'ShiftController');
+});

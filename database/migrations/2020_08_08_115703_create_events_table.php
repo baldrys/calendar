@@ -44,6 +44,8 @@ class CreateEventsTable extends Migration
                 ->references('id')->on('shifts')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
+
+            $table->timestamps();    
         });
     }
 

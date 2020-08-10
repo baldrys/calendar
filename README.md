@@ -10,4 +10,4 @@
 
 ### Результат
 
-![](images/Screenshot from 2020-08-10 03-00-16.png)
+![](images/screen.png)

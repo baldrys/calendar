@@ -7,3 +7,7 @@
 5. Выполнить команду генерации ключа приложения `php artisan key:generate`
 6. Выполнить `php artisan migrate --seed`
 7. Запустить локальный сервер (можно командой `php artisan serve`)
+
+### Результат
+
+![](images/Screenshot from 2020-08-10 03-00-16.png)
